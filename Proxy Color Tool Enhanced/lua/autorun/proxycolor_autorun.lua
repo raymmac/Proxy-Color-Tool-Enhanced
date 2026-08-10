@@ -1,4 +1,5 @@
 ProxyColor = istable(ProxyColor) and ProxyColor or {}
+NUM_SLOTS = 10
 
 if SERVER then
 	AddCSLuaFile("matproxy/matproxycolors.lua")
@@ -9,7 +10,6 @@ else
 end
 
 local Entity = FindMetaTable("Entity")
-local NUM_SLOTS = 10
 
 local function ApplyColorSlots(ent, ct)
 	ent.ColorTable = ct
