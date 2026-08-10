@@ -1,4 +1,4 @@
-for i = 1, 10 do
+for i = 1, NUM_SLOTS do
 	local slotName = "ColorSlot" .. i
 	local nameKey, tickKey = slotName .. "Name", slotName .. "Tick"
 
