@@ -1,7 +1,6 @@
 TOOL.Category = "Render"
 TOOL.Name = "Proxy Color Tool Enhanced"
 
-local NUM_SLOTS = 10
 local TickKey = {}
 for i = 1, NUM_SLOTS do
 	TickKey[i] = "ColorSlot"..i.."Tick"
